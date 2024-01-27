@@ -122,7 +122,112 @@ shm                65536        8     65528   1% /dev/shm
 /dev/sdb1       46127956      928  43751452   1% /tmp
 /dev/loop3      32847680 13638084  17515500  44% /workspaces
 ```
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
+4. Run the command **du** . ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ du
+64      ./.git/hooks
+4       ./.git/branches
+8       ./.git/info
+8       ./.git/objects/30
+20      ./.git/objects/ab
+12      ./.git/objects/07
+8       ./.git/objects/0b
+8       ./.git/objects/52
+8       ./.git/objects/d1
+20      ./.git/objects/0d
+8       ./.git/objects/71
+12      ./.git/objects/a0
+8       ./.git/objects/b2
+12      ./.git/objects/70
+8       ./.git/objects/cd
+8       ./.git/objects/4b
+8       ./.git/objects/3f
+12      ./.git/objects/74
+8       ./.git/objects/81
+8       ./.git/objects/d7
+8       ./.git/objects/49
+12      ./.git/objects/8c
+1820    ./.git/objects/pack
+12      ./.git/objects/fd
+12      ./.git/objects/b0
+8       ./.git/objects/04
+12      ./.git/objects/ff
+12      ./.git/objects/72
+16      ./.git/objects/d2
+8       ./.git/objects/93
+12      ./.git/objects/c1
+8       ./.git/objects/e9
+12      ./.git/objects/2e
+8       ./.git/objects/86
+8       ./.git/objects/cb
+8       ./.git/objects/6d
+8       ./.git/objects/d8
+4       ./.git/objects/info
+8       ./.git/objects/fe
+12      ./.git/objects/44
+8       ./.git/objects/8d
+8       ./.git/objects/63
+12      ./.git/objects/9e
+8       ./.git/objects/91
+8       ./.git/objects/83
+8       ./.git/objects/a3
+8       ./.git/objects/62
+16      ./.git/objects/3d
+12      ./.git/objects/33
+8       ./.git/objects/f2
+8       ./.git/objects/a1
+12      ./.git/objects/17
+8       ./.git/objects/09
+8       ./.git/objects/b9
+8       ./.git/objects/60
+8       ./.git/objects/c4
+8       ./.git/objects/47
+16      ./.git/objects/38
+8       ./.git/objects/99
+8       ./.git/objects/fc
+8       ./.git/objects/20
+16      ./.git/objects/fb
+8       ./.git/objects/45
+12      ./.git/objects/b6
+8       ./.git/objects/7b
+12      ./.git/objects/1c
+8       ./.git/objects/fa
+8       ./.git/objects/4f
+8       ./.git/objects/4a
+12      ./.git/objects/b5
+12      ./.git/objects/64
+12      ./.git/objects/af
+8       ./.git/objects/0e
+12      ./.git/objects/69
+12      ./.git/objects/73
+8       ./.git/objects/e7
+8       ./.git/objects/1b
+12      ./.git/objects/14
+12      ./.git/objects/1e
+8       ./.git/objects/24
+8       ./.git/objects/f6
+8       ./.git/objects/c6
+8       ./.git/objects/96
+8       ./.git/objects/a6
+8       ./.git/objects/c3
+8       ./.git/objects/58
+2628    ./.git/objects
+4       ./.git/lfs/tmp
+8       ./.git/lfs
+4       ./.git/refs/tags
+12      ./.git/refs/remotes/origin
+16      ./.git/refs/remotes
+8       ./.git/refs/heads
+32      ./.git/refs
+12      ./.git/logs/refs/remotes/origin
+16      ./.git/logs/refs/remotes
+8       ./.git/logs/refs/heads
+28      ./.git/logs/refs
+36      ./.git/logs
+2816    ./.git
+1972    ./images
+4808    .
+```
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
 7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
