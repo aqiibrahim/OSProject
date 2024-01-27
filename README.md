@@ -432,7 +432,12 @@ cache size      : 512 KB
 @aqiibrahim ➜ /workspaces/OSProject (main) $ lscpu | grep "MHz"
 CPU MHz:                            3221.569
 ```
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ ps aux --sort=-%cpu | head -n 2
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+codespa+     489  6.4  3.8 22141656 313516 ?     Sl   20:13   0:07 /vscode/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/node --dns-result-order=ipv4first /vscode/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+```
 
 ## Running your own container instance.
 
