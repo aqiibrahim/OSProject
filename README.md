@@ -379,7 +379,13 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5954.0 avail Mem
 @aqiibrahim ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-89ba21 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 ```
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.7Gi       185Mi       1.0Mi       5.8Gi       5.7Gi
+Swap:            0B          0B          0B
+```
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
