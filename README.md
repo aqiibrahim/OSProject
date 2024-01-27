@@ -394,7 +394,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 ```
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
 ```
-**Version of the Linux Virtual environment is:**
+Version of the Linux Virtual environment is:
 @aqiibrahim ➜ /workspaces/OSProject (main) $ cat /etc/os-release
 NAME="Ubuntu"
 VERSION="20.04.6 LTS (Focal Fossa)"
@@ -409,7 +409,7 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 VERSION_CODENAME=focal
 UBUNTU_CODENAME=focal
 
-__Hardware Architecture:__
+Hardware Architecture:
 @aqiibrahim ➜ /workspaces/OSProject (main) $ uname -m
 x86_64
 ```
