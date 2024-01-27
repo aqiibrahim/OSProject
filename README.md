@@ -392,7 +392,27 @@ Swap:            0B          0B          0B
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/loop3       32G   14G   17G  44% /workspaces
 ```
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
+```
+__Version of the Linux Virtual environment is:__
+@aqiibrahim ➜ /workspaces/OSProject (main) $ cat /etc/os-release
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+
+__Hardware Architecture:__
+@aqiibrahim ➜ /workspaces/OSProject (main) $ uname -m
+x86_64
+```
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
