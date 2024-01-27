@@ -386,7 +386,12 @@ Linux codespaces-89ba21 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25
 Mem:          7.7Gi       1.7Gi       185Mi       1.0Mi       5.8Gi       5.7Gi
 Swap:            0B          0B          0B
 ```
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ df -h /workspaces
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop3       32G   14G   17G  44% /workspaces
+```
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
