@@ -417,7 +417,16 @@ x86_64
 ```
 The ls command in Linux is used to list the files and directories in a directory. The ls -asl command is a variation of the ls command with additional options that provide more detailed information about the files and directories.
 ```
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ grep -E 'processor|model name|cache size|tlb' /proc/cpuinfo
+processor       : 0
+model name      : AMD EPYC 7763 64-Core Processor
+cache size      : 512 KB
+processor       : 1
+model name      : AMD EPYC 7763 64-Core Processor
+cache size      : 512 KB
+```
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
