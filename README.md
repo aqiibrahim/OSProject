@@ -309,7 +309,73 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
 ```
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** 
+```
+processor       : 0
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3180.946
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.86
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3187.607
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+top - 18:36:57 up  1:57,  0 users,  load average: 0.08, 0.19, 0.23
+Tasks:  19 total,   1 running,  18 sleeping,   0 stopped,   0 zombie
+top - 18:37:54 up  1:58,  0 users,  load average: 0.03, 0.15, 0.21
+Tasks:  19 total,   1 running,  18 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.9 us,  4.4 sy,  0.0 ni, 92.6 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7930.0 total,    141.4 free,   1659.9 used,   6128.7 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5954.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                 
+   2596 codespa+  20   0   21.1g 336264  46336 S   1.3   4.1   2:26.85 node                                                                                    
+   3264 codespa+  20   0  669120  63476  39296 S   0.3   0.8   0:04.76 node                                                                                    
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.13 docker-init                                                                             
+      7 codespa+  20   0    7236   1792   1792 S   0.0   0.0   0:00.01 sleep                                                                                   
+     48 root      20   0   12192   3608   2688 S   0.0   0.0   0:00.00 sshd                                                                                    
+    780 root      20   0 1463080  84512  49920 S   0.0   1.0   0:00.56 dockerd                                                                                 
+    787 root      20   0 1282676  51464  30336 S   0.0   0.6   0:01.24 containerd                                                                              
+   1541 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                                                      
+   1671 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh
+   ```
 10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
 11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
