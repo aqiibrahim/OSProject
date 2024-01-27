@@ -427,7 +427,11 @@ processor       : 1
 model name      : AMD EPYC 7763 64-Core Processor
 cache size      : 512 KB
 ```
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ lscpu | grep "MHz"
+CPU MHz:                            3221.569
+```
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container instance.
