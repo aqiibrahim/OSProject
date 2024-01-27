@@ -243,7 +243,13 @@ total 32
 16 -rw-rw-rw-  1 codespace root 16088 Jan 27 18:31 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 27 16:50 images
  ```
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+7. Run the command **free -h** . ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.6Gi       164Mi       1.0Mi       6.0Gi       5.8Gi
+Swap:            0B          0B          0B
+```
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
 10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
