@@ -228,7 +228,11 @@ shm                65536        8     65528   1% /dev/shm
 1972    ./images
 4808    .
 ```
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
+5. Run the command **ls** . ***(1 mark)*** 
+```
+@aqiibrahim ➜ /workspaces/OSProject (main) $ ls
+README.md  images
+```
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
 7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
