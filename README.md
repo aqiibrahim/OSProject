@@ -570,9 +570,7 @@ drwxr-sr-x 2 1000 1000 4096 Jan 28 08:24 /usr/local/apache2/htdocs
 ```
 3. What port is open for http protocol on the host machine? ***(1 mark)***
 ```
-@aqiibrahim ➜ ~/webpage $ netstat -tuln | grep LISTEN | grep ":80"
-tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN     
-tcp6       0      0 :::8080                 :::*                    LISTEN
+https://literate-succotash-wrr64xr774pj3vvpx-8080.app.github.dev/
 ```
 
 ## What to submit
